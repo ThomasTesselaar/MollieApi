@@ -16,5 +16,10 @@
         ///     The payment method this issuer belongs to. The Issuers API currently only supports iDEAL.
         /// </summary>
         public string Method { get; set; }
+
+	    /// <summary>
+	    ///     URLs of images representing the issuer.
+	    /// </summary>
+	    public IssuerResponseImage Image { get; set; }
     }
 }
